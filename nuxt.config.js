@@ -1,8 +1,11 @@
+const staticPrefix =
+  process.env.DEPLOY_ENV === 'GH_PAGES' ? '/tailwindchunks/' : '/'
+
 const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/tailwindchunks/'
+          base: staticPrefix
         }
       }
     : {}
@@ -26,8 +29,14 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/@mdi/css/materialdesignicons.min.css' },
-      { rel: 'stylesheet', href: '/highlight.js/default-style-10.0.3.min.css' }
+      {
+        rel: 'stylesheet',
+        href: `${staticPrefix}@mdi/css/materialdesignicons.min.css`
+      },
+      {
+        rel: 'stylesheet',
+        href: `${staticPrefix}highlight.js/default-style-10.0.3.min.css`
+      }
     ]
   },
   /*
