@@ -1,4 +1,14 @@
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/tailwindchunks/'
+        }
+      }
+    : {}
+
 export default {
+  ...routerBase,
   mode: 'spa',
   /*
    ** Headers of the page
