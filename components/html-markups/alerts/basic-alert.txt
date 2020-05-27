@@ -1,0 +1,24 @@
+<!-- Primary alert -->
+<div class="bg-blue-400 rounded mx-auto text-white my-8 p-5">
+  Primary alert – Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+</div>
+
+<!-- Success alert -->
+<div class="bg-green-400 rounded mx-auto text-white my-8 p-5">
+  Success alert – Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+</div>
+
+<!-- Warning alert -->
+<div class="bg-yellow-400 rounded mx-auto text-white my-8 p-5">
+  Warning alert – Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+</div>
+
+<!-- Danger alert -->
+<div class="bg-red-400 rounded mx-auto text-white my-8 p-5">
+  Danger alert – Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+</div>
+
+<!-- Custom alert -->
+<div class="bg-purple-900 rounded mx-auto text-white my-8 p-5">
+  Custom alert – Change the color by updating the bg-{color}-{color-weight} class name.
+</div>

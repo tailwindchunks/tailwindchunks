@@ -1,0 +1,24 @@
+<!-- Primary alert -->
+<div class="border-blue-400 border-t-4 rounded shadow-xl mx-auto my-8 p-5">
+  Primary alert – Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+</div>
+
+<!-- Success alert -->
+<div class="border-green-400 border-t-4 rounded shadow-xl mx-auto my-8 p-5">
+  Success alert – Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+</div>
+
+<!-- Warning alert -->
+<div class="border-yellow-400 border-t-4 rounded shadow-xl mx-auto my-8 p-5">
+  Warning alert – Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+</div>
+
+<!-- Danger alert -->
+<div class="border-red-400 border-t-4 rounded shadow-xl mx-auto my-8 p-5">
+  <span>Danger alert – Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+</div>
+
+<!-- Custom alert -->
+<div class="border-purple-900 border-t-4 rounded shadow-xl mx-auto my-8 p-5">
+  Custom alert – Change the color by updating the border-{color}-{color-weight} class name.
+</div>
