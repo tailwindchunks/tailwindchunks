@@ -35,9 +35,9 @@
         </ul>
       </div>
     </div>
-    <div class="main-body">
-      <div class="px-5">
-        <h1 class="mt-5 text-5xl text-gray-500">Components</h1>
+    <div class="main-body min-h-screen">
+      <div class="container mx-auto px-5">
+        <h1 class="mt-5 text-5xl text-gray-500 capitalize">{{ pageTitle }}</h1>
         <nuxt />
       </div>
     </div>
@@ -123,14 +123,28 @@ export default {
       ]
     }
   },
-  computed: {},
+  computed: {
+    pageTitle() {
+      const name = this.$route.name
+
+      if (name !== 'index' && name !== null) {
+        return name.split('-').pop()
+      }
+
+      return ''
+    }
+  },
   watch: {},
   beforeMount() {},
   mounted() {},
   methods: {}
 }
 </script>
-
+<style>
+body {
+  overflow-y: scroll;
+}
+</style>
 <style lang="scss" scoped>
 .sidebar-wrapper {
   position: fixed;
