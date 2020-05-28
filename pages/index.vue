@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mb-5 text-5xl text-gray-700">Tailwindchunks</h1>
+    <h1 class="mt-10 mb-20 text-5xl text-gray-600">Tailwindchunks</h1>
     <h2>Collections of tailwindcss components</h2>
   </div>
 </template>

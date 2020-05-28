@@ -6,7 +6,7 @@
     >
       {{ toggleButtonText }}
     </button>
-    <h2 class="my-5 text-2xl text-gray-700">{{ title }}</h2>
+    <h2 class="my-5 mb-12 text-2xl text-gray-700">{{ title }}</h2>
 
     <div
       v-if="showCode"

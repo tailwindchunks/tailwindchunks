@@ -10,6 +10,25 @@ const routerBase =
       }
     : {}
 
+const buildModules = [
+  // Doc: https://github.com/nuxt-community/eslint-module
+  '@nuxtjs/eslint-module',
+  // Doc: https://github.com/nuxt-community/stylelint-module
+  '@nuxtjs/stylelint-module',
+  // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+  '@nuxtjs/tailwindcss'
+]
+
+if (process.env.DEPLOY_ENV === 'GH_PAGES') {
+  // include analytics
+  buildModules.push([
+    '@nuxtjs/google-analytics',
+    {
+      id: 'UA-167829608-1'
+    }
+  ])
+}
+
 export default {
   ...routerBase,
   mode: 'spa',
@@ -36,6 +55,10 @@ export default {
       {
         rel: 'stylesheet',
         href: `${staticPrefix}highlight.js/default-style-10.0.3.min.css`
+      },
+      {
+        rel: 'stylesheet',
+        href: `${staticPrefix}github-corners.css`
       }
     ]
   },
@@ -54,14 +77,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
-    '@nuxtjs/stylelint-module',
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
-  ],
+  buildModules,
   /*
    ** Nuxt.js modules
    */
