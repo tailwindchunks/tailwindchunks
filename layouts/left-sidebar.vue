@@ -105,8 +105,8 @@ export default {
               menu: 'Buttons'
             },
             {
-              slug: 'card',
-              menu: 'Card'
+              slug: 'cards',
+              menu: 'Cards'
             },
             {
               slug: 'dropdown',

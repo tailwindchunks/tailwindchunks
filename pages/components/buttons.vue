@@ -14,6 +14,8 @@ import BasicButtons from '~/components/html-markups/buttons/basic-button.txt'
 import OutlinedButtons from '~/components/html-markups/buttons/outlined-button.txt'
 import WithIconButtons from '~/components/html-markups/buttons/with-icon-button.txt'
 import RoundedButtons from '~/components/html-markups/buttons/rounded-button.txt'
+import GroupButtons from '~/components/html-markups/buttons/group-button.txt'
+import SocialIconButtons from '~/components/html-markups/buttons/social-icon-button.txt'
 
 export default {
   layout: 'left-sidebar',
@@ -21,12 +23,12 @@ export default {
     return {
       items: [
         {
-          title: 'Basic buttons',
-          code: BasicButtons
+          title: 'Group buttons',
+          code: GroupButtons
         },
         {
-          title: 'Outlined buttons',
-          code: OutlinedButtons
+          title: 'Social icon buttons',
+          code: SocialIconButtons
         },
         {
           title: 'With icon buttons',
@@ -35,6 +37,14 @@ export default {
         {
           title: 'Rounded buttons',
           code: RoundedButtons
+        },
+        {
+          title: 'Basic buttons',
+          code: BasicButtons
+        },
+        {
+          title: 'Outlined buttons',
+          code: OutlinedButtons
         }
       ]
     }

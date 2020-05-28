@@ -1,0 +1,46 @@
+<!-- Social icon with text buttons -->
+
+<div class="flex">
+  <button class="bg-blue-700 text-white border leading-none p-2 rounded my-2 mx-1 hover:bg-blue-800">
+    <span class="mr-1">
+      <i class="mdi mdi-facebook"></i>
+    </span>
+    <span class="px-2 font-bold">Facebook<span>
+  </button>
+  <button class="bg-red-700 text-white border leading-none p-2 my-2 mx-1 hover:bg-red-800">
+    <span class="mr-1">
+      <i class="mdi mdi-google"></i>
+    </span>
+    <span class="px-2 font-bold">Google<span>
+  </button>
+  <button class="bg-blue-400 text-white border leading-none p-2 my-2 mx-1 hover:bg-blue-500">
+    <span class="mr-1">
+      <i class="mdi mdi-twitter"></i>
+    </span>
+    <span class="px-2 font-bold">Twitter<span>
+  </button>
+  <button class="bg-gray-700 text-white border leading-none p-2 my-2 mx-1 hover:bg-black">
+    <span class="mr-1">
+      <i class="mdi mdi-github"></i>
+    </span>
+    <span class="px-2 font-bold">Github<span>
+  </button>
+</div>
+
+<br>
+
+<!-- Social icon buttons -->
+<div class="flex">
+  <button class="bg-blue-700 text-white border leading-none p-2 rounded-full text-2xl my-2 mx-1 hover:bg-blue-800">
+    <i class="mdi mdi-facebook"></i>
+  </button>
+  <button class="bg-red-700 text-white border leading-none p-2 rounded-full text-2xl my-2 mx-1 hover:bg-red-800">
+    <i class="mdi mdi-google"></i>
+  </button>
+  <button class="bg-blue-400 text-white border leading-none p-2 rounded-full text-2xl my-2 mx-1 hover:bg-blue-500">
+    <i class="mdi mdi-twitter"></i>
+  </button>
+  <button class="bg-gray-700 text-white border leading-none p-2 rounded-full text-2xl my-2 mx-1 hover:bg-black">
+    <i class="mdi mdi-github"></i>
+  </button>
+</div>

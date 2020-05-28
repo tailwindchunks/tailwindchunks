@@ -1,11 +1,12 @@
 <template>
   <div>
-    <markup
+    Work in progress
+    <!-- <markup
       v-for="(item, key) in items"
       :key="`item-${key}`"
       :title="item.title"
       :code="item.code"
-    ></markup>
+    ></markup> -->
   </div>
 </template>
 

@@ -1,18 +1,14 @@
-<div>
+<!-- Filled rounded button -->
+<button class="border-2 bg-blue-400 border-blue-600 m-2 px-8 py-2 font-bold text-white rounded-full hover:bg-blue-600 focus:outline-none">
+  Filled button
+</button>
 
-  <!-- Filled rounded button -->
-  <button class="border-2 bg-blue-400 border-blue-600 m-2 px-8 py-2 font-bold text-white rounded-full hover:bg-blue-600 focus:outline-none">
-    Filled button
-  </button>
+<!-- Outlined rounded button -->
+<button class="border-2 bg-white border-green-600 m-2 px-8 py-2 font-bold text-green-400 rounded-full hover:bg-green-600 hover:text-white focus:outline-none">
+  Outlined button
+</button>
 
-  <!-- Outlined rounded button -->
-  <button class="border-2 bg-white border-green-600 m-2 px-8 py-2 font-bold text-green-400 rounded-full hover:bg-green-600 hover:text-white focus:outline-none">
-    Outlined button
-  </button>
-
-  <!-- Rounded button with icon -->
-  <button class="border-2 bg-gray-400 border-gray-600 m-2 px-8 py-2 font-bold text-white rounded-full hover:bg-gray-600 hover:text-white focus:outline-none">
-    <i class="mdi mdi-leaf"></i>
-  </button>
-
-</div>
+<!-- Rounded button with icon -->
+<button class="border-2 bg-gray-400 border-gray-600 m-2 px-8 py-2 font-bold text-white rounded-full hover:bg-gray-600 hover:text-white focus:outline-none">
+  <i class="mdi mdi-leaf"></i>
+</button>

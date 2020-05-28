@@ -10,7 +10,7 @@
 
     <div
       v-if="showCode"
-      class="code-wrapper code-wrapper mt-6 shadow-lg text-sm overflow-x-auto"
+      class="code-wrapper code-wrapper mt-6 shadow-lg text-sm overflow-x-auto mb-10"
     >
       <pre v-highlightjs="code"><code class="html"></code></pre>
     </div>
