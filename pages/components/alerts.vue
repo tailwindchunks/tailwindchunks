@@ -5,7 +5,7 @@
       :key="`item-${key}`"
       :title="item.title"
       :code="item.code"
-    ></markup>
+    />
   </div>
 </template>
 
@@ -16,7 +16,7 @@ import WithIconAlert from '~/components/html-markups/alerts/with-icon-alert.txt'
 
 export default {
   layout: 'left-sidebar',
-  data() {
+  data () {
     return {
       items: [
         {
@@ -36,8 +36,8 @@ export default {
   },
   computed: {},
   watch: {},
-  beforeMount() {},
-  mounted() {},
+  beforeMount () {},
+  mounted () {},
   methods: {}
 }
 </script>

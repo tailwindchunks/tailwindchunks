@@ -15,7 +15,7 @@
 
 export default {
   layout: 'left-sidebar',
-  data() {
+  data () {
     return {
       // items: [
       //   {
@@ -27,8 +27,8 @@ export default {
   },
   computed: {},
   watch: {},
-  beforeMount() {},
-  mounted() {},
+  beforeMount () {},
+  mounted () {},
   methods: {}
 }
 </script>

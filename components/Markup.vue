@@ -6,16 +6,18 @@
     >
       {{ toggleButtonText }}
     </button>
-    <h2 class="my-5 mb-12 text-2xl text-gray-700">{{ title }}</h2>
+    <h2 class="my-5 mb-12 text-2xl text-gray-700">
+      {{ title }}
+    </h2>
 
     <div
       v-if="showCode"
       class="code-wrapper code-wrapper mt-6 shadow-lg text-sm overflow-x-auto mb-10"
     >
-      <pre v-highlightjs="code"><code class="html"></code></pre>
+      <pre v-highlightjs="code"><code class="html" /></pre>
     </div>
 
-    <div class="preview" v-html="code"></div>
+    <div class="preview" v-html="code" />
   </div>
 </template>
 
@@ -30,19 +32,19 @@ export default {
     // object: { type: Object, default: () => ({}) },
     // boolean: { type: Boolean, default: false }
   },
-  data() {
+  data () {
     return {
       showCode: false
     }
   },
   computed: {
-    toggleButtonText() {
+    toggleButtonText () {
       return (this.showCode ? 'Hide' : 'View') + ' source'
     }
   },
   watch: {},
-  beforeMount() {},
-  mounted() {},
+  beforeMount () {},
+  mounted () {},
   methods: {}
 }
 </script>
