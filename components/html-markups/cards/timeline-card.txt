@@ -11,7 +11,6 @@
     </div>
     <div class="p-5">
       <p>People generally approve of dogs eating cat food but not cats eating dog food. The river stole the gods. I like to leave work after my eight-hour tea-break.</p>
-      <p>It would have been a better night if the guys next to us weren't in the splash zone. When I was little I had a car door slammed shut on my hand and I still remember it quite vividly.</p>
     </div>
 
     <div class="flex justify-between border-t mt-5 p-2">

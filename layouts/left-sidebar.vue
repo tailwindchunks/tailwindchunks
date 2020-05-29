@@ -43,7 +43,6 @@
         <nuxt />
       </div>
     </div>
-
     <div class="footer w-full bg-white bottom-0 fixed footer py-2 text-center z-10">
       MIT Licensed | Copyright © 2020 - Present Jeric
     </div>

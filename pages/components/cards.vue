@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3" />
     <markup
       v-for="(item, key) in items"
       :key="`item-${key}`"
