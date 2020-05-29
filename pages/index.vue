@@ -1,16 +1,22 @@
 <template>
-  <div class="home-page">
-    <h1 class="mt-10 mb-5 mx-auto text-5xl text-blue-500">
-      Tailwind Chunks
-    </h1>
-    <h2>Collections of tailwindcss components</h2>
+  <div>
+    <h2 class="my-10 text-3xl text-blue-500 capitalize">
+      Why tailwind chunks?
+    </h2>
 
-    <nuxt-link
-      class="bg-blue-400 border border-blue-500 hover:bg-blue-500 m-10 m-2 px-8 py-2 rounded text-2xl text-white"
-      to="/about"
-    >
-      Get Started
-    </nuxt-link>
+    <p class="text-xl text-gray-700">
+      Tailwind chunks aim is to create a useful and flexible components based in <a class="text-blue-500 hover:underline" href="https://tailwindcss.com?ref=https://tailwindchunks.github.io/tailwindchunks" target="_blank">tailwindcss</a>.
+      Unlike with other css frameworks, you can modify the components base on your liking without writing any css code and by only changing the class names.
+    </p>
+
+    <h3 class="my-10 text-2xl text-blue-500 capitalize">
+      Tools used
+    </h3>
+
+    <ul class="list-disc list-inside">
+      <li><a class="text-blue-500 hover:underline" href="https://tailwindcss.com?ref=https://tailwindchunks.github.io/tailwindchunks" target="_blank">Tailwindcss</a></li>
+      <li><a class="text-blue-500 hover:underline" href="https://materialdesignicons.com?ref=https://tailwindchunks.github.io/tailwindchunks" target="_blank">Materialdesignicons</a></li>
+    </ul>
   </div>
 </template>
 
@@ -18,19 +24,9 @@
 // import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    // Logo
-  }
+  layout: 'left-sidebar'
+  // components: {
+  //   Logo
+  // }
 }
 </script>
-
-<style scoped>
-.home-page{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-}
-</style>
