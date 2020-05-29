@@ -59,7 +59,7 @@
         </ul>
       </div>
     </div>
-    <div class="main-body min-h-screen">
+    <div class="bg-gray-100 main-body min-h-screen">
       <div class="container mx-auto px-5">
         <h1
           v-if="pageTitle"

@@ -1,17 +1,18 @@
 <template>
   <div>
-    Work in progress
-    <!-- <markup
+    <markup
       v-for="(item, key) in items"
       :key="`item-${key}`"
       :title="item.title"
       :code="item.code"
-    ></markup> -->
+    />
   </div>
 </template>
 
 <script>
 import BasicCard from '~/components/html-markups/cards/basic-card.txt'
+import WithImageCard from '~/components/html-markups/cards/with-image-card.txt'
+import TimelineCard from '~/components/html-markups/cards/timeline-card.txt'
 
 export default {
   layout: 'left-sidebar',
@@ -21,6 +22,14 @@ export default {
         {
           title: 'Basic card',
           code: BasicCard
+        },
+        {
+          title: 'Card with image',
+          code: WithImageCard
+        },
+        {
+          title: 'Timeline style card',
+          code: TimelineCard
         }
       ]
     }

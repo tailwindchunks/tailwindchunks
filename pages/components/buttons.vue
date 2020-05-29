@@ -23,6 +23,18 @@ export default {
     return {
       items: [
         {
+          title: 'Basic buttons',
+          code: BasicButtons
+        },
+        {
+          title: 'Outlined buttons',
+          code: OutlinedButtons
+        },
+        {
+          title: 'Rounded buttons',
+          code: RoundedButtons
+        },
+        {
           title: 'Group buttons',
           code: GroupButtons
         },
@@ -33,18 +45,6 @@ export default {
         {
           title: 'With icon buttons',
           code: WithIconButtons
-        },
-        {
-          title: 'Rounded buttons',
-          code: RoundedButtons
-        },
-        {
-          title: 'Basic buttons',
-          code: BasicButtons
-        },
-        {
-          title: 'Outlined buttons',
-          code: OutlinedButtons
         }
       ]
     }

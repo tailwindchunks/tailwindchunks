@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b-2 border-gray-200 mb-20 pb-16">
+  <div class="markup border-b-2 border-gray-200 mb-20 pb-16">
     <button
       class="float-right bg-blue-100 border-2 hover:bg-blue-500 hover:border-blue-500 hover:text-white px-4 py-2 rounded-md text-sm"
       @click="showCode = !showCode"

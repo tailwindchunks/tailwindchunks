@@ -16,6 +16,7 @@
     <ul class="list-disc list-inside">
       <li><a class="text-blue-500 hover:underline" href="https://tailwindcss.com?ref=https://tailwindchunks.github.io/tailwindchunks" target="_blank">Tailwindcss</a></li>
       <li><a class="text-blue-500 hover:underline" href="https://materialdesignicons.com?ref=https://tailwindchunks.github.io/tailwindchunks" target="_blank">Materialdesignicons</a></li>
+      <li><a class="text-blue-500 hover:underline" href="https://unsplash.com?ref=https://tailwindchunks.github.io/tailwindchunks" target="_blank">Unsplash</a></li>
     </ul>
   </div>
 </template>

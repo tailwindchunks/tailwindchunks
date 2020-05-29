@@ -1,4 +1,4 @@
-<!-- Button filled background with left icon -->
+<!-- Button filled background with left icon start -->
 <button class="border-2 bg-red-400 border-red-600 m-2 px-8 py-2 hover:bg-red-600 text-white rounded">
   <span class="flex items-center">
     <span class="font-bold mr-3">
@@ -7,8 +7,9 @@
     <span class="font-semibold">Delete</span>
   </span>
 </button>
+<!-- Button filled background with left icon end -->
 
-<!-- Button outlined with left icon -->
+<!-- Button outlined with left icon start -->
 <button class="border-2 border-green-400 m-2 px-8 py-2 text-green-400 hover:bg-green-600 hover:text-white rounded">
   <span class="flex items-center">
     <span class="font-bold mr-3">
@@ -17,8 +18,9 @@
     <span class="font-semibold">Save</span>
   </span>
 </button>
+<!-- Button outlined with left icon end -->
 
-<!-- Button with right icon -->
+<!-- Button with right icon start -->
 <button class="border-2 border-blue-400 m-2 px-8 py-2 text-blue-400 hover:bg-blue-600 hover:text-white rounded">
   <span class="flex items-center">
     <span class="font-semibold">Send</span>
@@ -27,6 +29,4 @@
     </span>
   </span>
 </button>
-
-<div>
-</div>
+<!-- Button with right icon end -->

@@ -5,10 +5,17 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
       router: {
-        base: staticPrefix
+        base: staticPrefix,
+        linkActiveClass: 'nuxt-link-active',
+        linkExactActiveClass: 'nuxt-link-exact-active font-bold bg-blue-500 text-white'
       }
     }
-    : {}
+    : {
+      router: {
+        linkActiveClass: 'nuxt-link-active',
+        linkExactActiveClass: 'nuxt-link-exact-active font-bold bg-blue-500 text-white'
+      }
+    }
 
 const buildModules = [
   // Doc: https://github.com/nuxt-community/eslint-module

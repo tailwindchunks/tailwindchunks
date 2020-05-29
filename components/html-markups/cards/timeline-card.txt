@@ -1,0 +1,41 @@
+<div class="lg:w-1/3 md:w-1/2 sm:w-2/3 w-11/12">
+
+  <!-- With image card start -->
+  <div class="bg-white border border-gray-100 rounded shadow-xl text-gray-700 overflow-hidden">
+    <div class="flex items-center mb-2 p-2 p-5">
+      <image class="rounded-full" style="width: 50px;" src="https://source.unsplash.com/50x50/?cat">
+      <span class="ml-2 font-bold text-gray-500">John meow</span>
+    </div>
+    <div class="object-cover">
+      <image style="width: 100%;" src="https://source.unsplash.com/400x400/?nature,forest,ocean">
+    </div>
+    <div class="p-5">
+      <p>People generally approve of dogs eating cat food but not cats eating dog food. The river stole the gods. I like to leave work after my eight-hour tea-break.</p>
+      <p>It would have been a better night if the guys next to us weren't in the splash zone. When I was little I had a car door slammed shut on my hand and I still remember it quite vividly.</p>
+    </div>
+
+    <div class="flex justify-between border-t mt-5 p-2">
+      <button class="bg-red-700 border border-gray-400 overflow-hidden flex hover:bg-red-800 justify-between leading-none mx-1 my-2 p-0 rounded text-white">
+        <span class="bg-white text-black flex h-full items-center p-2">
+          12.5k
+        </span>
+        <span class="flex h-full items-center mr-1 px-4 font-bold">
+          <i class="mdi mdi-heart"></i>
+        </span>
+      </button>
+
+      <button class="bg-gray-400 border border-gray-400 overflow-hidden flex hover:bg-gray-500 justify-between leading-none mx-1 my-2 p-0 rounded text-white">
+        <span class="flex h-full items-center mr-1 px-4 font-bold">
+          <span>
+            Shares
+          </span>
+        </span>
+        <span class="bg-white text-black flex h-full items-center p-2">
+          2.3k
+        </span>
+      </button>
+    </div>
+  </div>
+  <!-- With image card end -->
+
+</div>
