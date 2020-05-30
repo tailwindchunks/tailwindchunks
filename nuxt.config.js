@@ -118,7 +118,7 @@ export default {
     }
   },
   sitemap: {
-    hostname: 'https://tailwindchunks.github.io/tailwindchunks',
+    hostname: 'https://tailwindchunks.github.io',
     gzip: true
   }
 }
