@@ -116,5 +116,9 @@ export default {
         exclude: /(node_modules)/
       })
     }
+  },
+  sitemap: {
+    hostname: 'https://tailwindchunks.github.io/tailwindchunks',
+    gzip: true
   }
 }
